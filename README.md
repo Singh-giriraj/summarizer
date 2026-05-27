@@ -46,7 +46,8 @@ Run with Maven:
 
 ### Summarize PDF
 **Endpoint**: `POST /api/summarize`  
-**Body**: `multipart/form-data` with `file` field.
+**Body**: `multipart/form-data` with `file` field.  
+**Limit**: Maximum file size is **10MB**.
 
 **Example with cURL**:
 ```bash
